@@ -1,0 +1,65 @@
+.title {
+  color: var(--title-text-color);
+}
+
+.features-title,
+.team-title,
+.team-title,
+.galery-title {
+  color: var(--title-text-color);
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.features-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.features {
+  display: flex;
+}
+
+.features-item {
+  width: 270px;
+
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.features-top {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
