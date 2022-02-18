@@ -1,4 +1,4 @@
-.header-page {
+.header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -7,8 +7,9 @@
 
 .header__container {
   @include align-flex;
-  // display: flex;
-  // align-items: center;
+}
+
+.navigation {
 }
 
 .logo {
@@ -30,17 +31,17 @@
   display: flex;
 }
 
-.site-nav .site-nav-item + .site-nav-item {
+.site-nav .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
 
-.site-nav-link {
+.site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.site-nav-link {
+.site-nav__link {
   @include font(500, 14px, 1.14, 0.02em);
   // font-weight: 500;
   // font-size: 14px;
@@ -71,7 +72,7 @@
   }
 }
 
-.contacts-link {
+.contacts__link {
   @include font(500, 14px, 1.14, 0.02em);
   // font-weight: 500;
   // font-size: 14px;
@@ -91,7 +92,7 @@
   margin-left: auto;
 }
 
-.contacts-link {
+.contacts__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -106,7 +107,7 @@
   }
 }
 
-.contacts .contacts-item + .contacts-item {
+.contacts .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
@@ -114,7 +115,7 @@ nav {
   margin-left: 94px;
 }
 
-.contacts-link {
+.contacts__link {
   // display: flex;
   // align-items: center;
   @include align-flex;
