@@ -88,15 +88,10 @@ button {
   background-color: var(--primary-bg-color);
 }
 
-.navigation {
-
-}
-
 .header__container {
   display: flex;
   align-items: center;
 }
-
 
 .logo {
   color: var(--accent-color);
