@@ -1,9 +1,10 @@
 .galery-text {
+  @include font(400, 16px, 1.9, 0.03em);
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.9;
+  // letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: calc(30 / 16);
 }
 
 .galery-item-content {
@@ -16,10 +17,11 @@
 
 .galery-item .galery-title {
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(700, 18px, 2, 0.06em);
+  // font-weight: 700;
+  // font-size: 18px;
+  // line-height: 2;
+  // letter-spacing: 0.06em;
 }
 
 .galery {
@@ -45,10 +47,11 @@
   left: 0;
   padding: 24px;
 
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font(400, 18px, 1.56, 0.03em);
+  // font-weight: 400;
+  // font-size: 18px;
+  // line-height: 1.56;
+  // letter-spacing: 0.03em;
   height: 100%;
 
   color: #ffffff;

@@ -272,12 +272,11 @@ nav {
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -316,8 +315,8 @@ nav {
 .features-top {
   content: "";
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
   height: 120px;
@@ -345,8 +344,8 @@ nav {
 .works-item-top-text {
   position: absolute;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -602,9 +601,9 @@ nav {
 
 .subscribe-btn {
   display: flex;
+  align-items: center;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
   width: 200px;
   height: 40px;
   background-color: var(--accent-color);
@@ -629,9 +628,9 @@ nav {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
-  text-align: center;
+  line-height: 1.6;
   letter-spacing: 0.03em;
+  text-align: center;
   background-color: #f5f4fa;
   border-radius: 4px;
   border: transparent;

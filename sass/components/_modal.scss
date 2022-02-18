@@ -55,11 +55,12 @@
 }
 
 .modal-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  @include font(700, 20px, 1.15, 0.03em);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 12px;
@@ -125,16 +126,17 @@
   height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
+
+  @include font(700, 16px, 1.87, 0.03em);
+  // font-family: inherit;
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.87;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
-  /* margin-top: 30px; */
+
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 40px; */
 
   background-color: var(--accent-color);
   color: #ffffff;
@@ -168,18 +170,20 @@
 }
 
 .modal-text::placeholder {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.01em;
+  @include font(400, 14px, 1.14, 0.01em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-check-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71, 0.03em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: #757575;
   justify-content: center;
   display: flex;
@@ -187,14 +191,14 @@
 }
 
 .modal-check-text span {
+  @include align-flex;
+  // display: flex;
+  // align-items: center;
+  justify-content: center;
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   margin-right: 8px;
 }
 

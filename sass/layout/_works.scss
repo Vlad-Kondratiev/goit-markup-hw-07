@@ -18,18 +18,21 @@
 
 .works-item-top-text {
   position: absolute;
-  display: flex;
+  // display: flex;
+  // align-items: center;
+  @include align-flex;
   justify-content: center;
-  align-items: center;
+
   left: 0;
   bottom: 0;
   width: 100%;
   min-height: 70px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.14, 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #ffffff;
