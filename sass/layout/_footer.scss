@@ -30,7 +30,7 @@
   color: #ffffff;
 }
 
-.footer-contacts-link {
+.footer-contacts__link {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
@@ -38,24 +38,24 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contacts-item {
+.footer-contacts__item {
   margin-bottom: 9px;
 }
 
-.footer-contacts-item:nth-child(3n) {
+.footer-contacts__item:nth-child(3n) {
   margin-bottom: 0px;
 }
 
-.footer-socials-list {
+.footer-socials__list {
   display: flex;
 }
 
-.footer-adress-box {
+.footer-adress {
   margin-right: 70px;
 }
 
-.footer-socials-title {
-  @include font(700, 14px, 1.14, 0, 03em);
+.footer-socials__title {
+  @include font(700, 14px, 1.14, 0.03em);
   // font-weight: 700;
   // font-size: 14px;
   // line-height: 1.14;
@@ -66,11 +66,11 @@
   align-self: flex-start;
 }
 
-.footer-socials-icon {
+.footer-socials__icon {
   fill: white;
 }
 
-.footer-socials-link {
+.footer-socials__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -87,20 +87,20 @@
   }
 }
 
-.footer-socials-item + .footer-socials-item {
+.footer-socials__item + .footer-socials__item {
   margin-left: 10px;
 }
 
-.footer-socials-box {
+.footer-socials {
   margin-right: 90px;
 }
 
-.subscribe-input-wrap {
+.footer-subscribe__input {
   display: flex;
 }
 
-.subscribe-title {
-  @include font(700, 14px, 1.14, 0, 03em);
+.footer-subscribe__title {
+  @include font(700, 14px, 1.14, 0.03em);
   // font-weight: 700;
   // font-size: 14px;
   // line-height: 1.14;
@@ -111,7 +111,7 @@
   align-self: flex-start;
 }
 
-.subscribe-mail {
+.footer-subscribe__mail {
   width: 360px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -131,7 +131,7 @@
   }
 }
 
-.subscribe-btn {
+.footer-subscribe__btn {
   // display: flex;
   // align-items: center;
   @include align-flex;
@@ -152,7 +152,7 @@
   }
 }
 
-.subscribe-send-icon {
+.footer-subscribe__icon {
   fill: #ffffff;
   margin-left: 10px;
 }

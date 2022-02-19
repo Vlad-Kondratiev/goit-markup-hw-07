@@ -5,14 +5,12 @@
   background-color: var(--primary-bg-color);
 }
 
-.header__container {
+.header-container {
   @include align-flex;
 }
 
-.navigation {
-}
-
 .logo {
+  display: inline-flex;
   color: var(--accent-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
