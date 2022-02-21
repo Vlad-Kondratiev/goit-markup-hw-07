@@ -5,7 +5,7 @@
   background-color: var(--primary-bg-color);
 }
 
-.header-container {
+.header__container {
   @include align-flex;
 }
 
@@ -21,7 +21,7 @@
   // letter-spacing: 0.03em;
 }
 
-.logo-dark {
+.logo__dark {
   color: #212121;
 }
 
@@ -54,7 +54,7 @@
   }
 }
 
-.current {
+.site-nav__link--current {
   color: var(--accent-color);
   position: relative;
 
@@ -121,12 +121,12 @@ nav {
   color: #757575;
 }
 
-.envelope-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.phone-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
+// .phone-icon {
+//   margin-right: 10px;
+//   fill: currentColor;
+// }

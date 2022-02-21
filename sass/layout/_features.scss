@@ -9,7 +9,7 @@
   color: var(--title-text-color);
 }
 
-.section-title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -43,9 +43,9 @@
   // letter-spacing: 0.03em;
 }
 
-.section__title {
-  margin-bottom: 50px;
-}
+// .section__title {
+//   margin-bottom: 50px;
+// }
 
 .features {
   display: flex;
@@ -59,7 +59,7 @@
   }
 }
 
-.features__top {
+.features__imagebox {
   content: "";
   // display: flex;
   // align-items: center;
